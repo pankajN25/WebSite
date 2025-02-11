@@ -1,0 +1,143 @@
+/* General Body Styling */
+body {
+    background: linear-gradient(135deg, #74b9ff, #0984e3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+}
+
+/* Fieldset Styling */
+fieldset {
+    background: #2d3436;
+    padding: 30px;
+    width: 350px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Decorative Effect */
+fieldset::before {
+    content: '';
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.2), transparent);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+fieldset::after {
+    content: '';
+    position: absolute;
+    bottom: -50px;
+    right: -50px;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.2), transparent);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Form Labels and Inputs */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #dfe6e9;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #dcdde1;
+    border-radius: 8px;
+    background: #353b48;
+    color: #dfe6e9;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #0984e3;
+    box-shadow: 0px 0px 5px rgba(9, 132, 227, 0.7);
+    background: #2f3640;
+}
+
+/* Gender Section */
+.gender {
+    margin-bottom: 20px;
+    color: #dfe6e9;
+}
+
+.gender input {
+    margin-right: 8px;
+    accent-color: #74b9ff;
+}
+
+/* Submit Button */
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #0984e3, #74b9ff);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background: linear-gradient(135deg, #74b9ff, #0984e3);
+    box-shadow: 0px 5px 10px rgba(9, 132, 227, 0.5);
+}
+
+/* Legend Styling */
+legend {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 480px) {
+    fieldset {
+        width: 90%;
+        padding: 20px;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    input[type="email"],
+    input[type="password"] {
+        font-size: 12px;
+    }
+
+    input[type="submit"] {
+        font-size: 14px;
+    }
+
+    legend {
+        font-size: 18px;
+    }
+}

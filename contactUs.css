@@ -1,0 +1,62 @@
+
+    #contactusP {
+      width: 80%;
+      margin: 20px auto;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 20px;
+      background-color: rgb(189, 195, 199);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    #contactusP table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: rgb(52, 73, 94);
+    }
+
+    #contactusP th, #contactusP td {
+      text-align: left;
+      padding: 12px 15px;
+      border: 1px solid #ddd;
+    }
+
+    #contactusP th {
+      background-color: #007bff;
+      color: white;
+      font-size: 1.2em;
+    }
+
+    #contactusP td {
+      font-size: 1em;
+    }
+
+    #contactusP a {
+      color: #007bff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    #contactusP a:hover {
+      text-decoration: underline;
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      #contactusP {
+        padding: 10px;
+      }
+
+      #contactusP table {
+        font-size: 0.9em;
+      }
+    }
+  
+
+
+
+
+
+

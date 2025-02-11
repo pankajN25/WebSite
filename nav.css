@@ -1,0 +1,249 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+    height: auto;
+    width: 100%;
+    position: relative;
+    
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+      
+
+} 
+
+/* Styling for the navigation bar */
+
+nav {
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: #333; */
+    color: rgb(240, 195, 195);
+    padding: 10px ;
+    
+    font-family: Arial, sans-serif;
+    background-color: transparent;
+    position: absolute;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: rgba(242, 239, 239, 0.836);
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+    background-color: transparent;
+    
+    
+}
+
+nav a:hover {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    text-decoration: underline rgb(30, 30, 179);
+    
+}
+
+/* nav img editing */
+#navimg{
+    height: 300px;
+    width: 500px;
+    background-image:url(img3\ back.jpg);
+    background-color: transparent;
+    background-size:cover;
+    opacity: 0.7;
+    z-index: 1;
+    border-radius: 30%;
+
+
+   left: 350px;
+   top: 200px;
+    position: absolute;
+}
+#navimg:hover{
+    opacity: 1.5;
+}
+#navimg2{
+    height: 500px;
+    width:auto ;
+    z-index: 2;
+    
+    background-color: transparent;
+    background-size: cover;
+    background-image: url(backgrounddubai.jpg);
+
+}
+ #logo{
+    height: 50px ;width:70px;
+    background-image: url(logo.webp);
+    background-size: cover; 
+    margin-left: 20px;
+    margin-top: 5px;
+
+}
+/* login icon  */
+/* Icon Container */
+.icon-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px white;
+    background: transparent;
+    opacity: 0.8;
+  }
+  
+  .icon:hover {
+    transform: scale(1.1);
+  }
+   
+
+/* Main content section */
+#ollinfo {
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Footer styles */
+/* /* styles.css */
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+} */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    margin-top: 40px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1 1 250px;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #007BFF;
+}
+
+.footer-section ul li i {
+    margin-right: 10px;
+    color: #007BFF;
+}
+
+.social-media li a {
+    display: flex;
+    align-items: center;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+}
+
+.footer-bottom p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+.footer-bottom a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+
+/* Basic styling for the login button and dropdown menu */
+
+
+#loginButtonUnique {
+   
+    /* color: white; */
+    /* padding: 10px 20px; */
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#loginButtonUnique:hover {
+    /* background-color: #45a049; Darker green on hover */
+}
+
+.dropdown-content-unique {
+    display: none; /* Hidden by default */
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    /* box-shadow: 0px 8px 6px 0px rgba(58, 51, 51, 0.2); */
+    z-index: 1;
+    border-radius: 5px;
+    color: black;
+    overflow: hidden;
+}
+
+.dropdown-content-unique a {
+    color: black;
+    /* padding: 12px 16px; */
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+}
+
+.dropdown-content-unique a:hover {
+    background-color: #f1f1f1; /* Light gray on hover */
+}
+
+.show-unique {
+    display: block; /* Show the dropdown */
+}

@@ -1,0 +1,174 @@
+#visitp1{
+  height: 40px;
+  width: 190px;
+  /* background-color:; */
+  color: white;
+  text-shadow: 1px 1px 1px 4px white;
+  box-shadow: 1px 1px 1px 3px white;
+  border-radius: 5px;
+  position: absolute;
+  border: 2px rgb(255, 252, 252);
+  top: 400px;
+  left: 1000px;
+  font-size: larger;
+  opacity: 2;
+  padding: 10px;
+  text-decoration: underline black;
+  background-color: transparent;
+}
+#visitp1:hover {
+   background-color: rgb(253, 254, 254); 
+  text-decoration: underline blue;
+  box-shadow: 0.5px 0.5px 0.5px 5px rgb(52, 73, 94);
+  color: rgb(9, 9, 9);
+}
+
+/* General Styles */
+#schedule_form1 {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('formback.jpg'); /* Replace with your image path */
+ background-size: cover;
+  background-position: center;
+  /* height: 100vh; */
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  width: auto;
+}
+
+/* Form Container */
+.visit-form-container {
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  width: 550px;
+  margin-left: 400px;
+  text-align: center;
+}
+
+/* Form Heading */
+.visit-form-heading {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+}
+
+/* Note */
+.visit-form-note {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* Form Groups */
+.visit-form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.visit-form-label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+  font-weight: bold;
+}
+
+.visit-form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Submit Button */
+.visit-form-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.visit-form-button:hover {
+  background-color: #0056b3;
+}
+
+/* Success Message */
+.visit-form-success-message {
+  color: green;
+  font-weight: bold;
+  margin-top: 15px;
+  display: none; /* Hidden by default */
+}
+/* 
+
+
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  background:rgb(250, 189, 128);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-image: url(recent4.jpg);
+  background-size: cover;
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+input,
+select,
+textarea,
+button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #007BFF;
+}
+
+button {
+  background-color: #007BFF;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+} */

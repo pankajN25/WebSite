@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="regi.css">
+    <style>
+        /* General Body Styling */
+        body {
+            background-color: rgb(242, 245, 248);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Fieldset Styling */
+        fieldset {
+            background-color: rgb(132, 136, 139);
+            padding: 20px;
+            width: 400px;
+            border: 2px solid black;
+            border-radius: 10px;
+            box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
+            color: white;
+        }
+
+        /* Form Labels and Inputs */
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        /* Gender Section */
+        .gender {
+            margin-bottom: 15px;
+        }
+
+        .gender input {
+            margin-right: 10px;
+        }
+
+        /* Submit Button */
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: rgb(91, 155, 213);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: rgb(72, 135, 193);
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend style="text-align: center; font-size: 20px;">Registration Form</legend>
+        <form action="submit_handler.php" method="post">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Full Name" required>
+            
+            <label for="city">City</label>
+            <input type="text" name="city" id="city" placeholder="City Name" required>
+            
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" placeholder="Age" required>
+            
+            <div class="gender">
+                <label>Gender</label>
+                <input type="radio" name="gender" value="Male" id="male" required>Male
+                <input type="radio" name="gender" value="Female" id="female" required>Female
+            </div>
+            
+            <label for="mobile">Mobile Number</label>
+            <input type="text" name="mobile" id="mobile" placeholder="Mobile No" required>
+            
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Email" required>
+            
+            <a href="navbar.html"><input type="submit" value="Submit"></a>
+        </form>
+    </fieldset>
+</body>
+</html>

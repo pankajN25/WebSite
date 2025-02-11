@@ -1,0 +1,98 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-button {
+    padding: 10px ;
+    padding-left:60px; ;
+    background-color:transparent;
+    color: rgb(210, 212, 212);
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    text-shadow: 2px 1px 1px 1px red;
+  }
+
+  .dropdown-button:hover {
+    background-color: transparent;
+  }
+
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left:60px;
+    opacity: 0.9;
+    color: white;
+    background-color:rgb(49, 46, 46);
+    padding: 10px;
+    padding: left 80px;
+    border-radius: 4px;
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    height: auto ;
+    width: auto ;
+  }
+
+  .dropdown-menu div {
+    padding: 10px 20px;
+    color:white;
+    cursor: pointer;
+  }
+
+  .dropdown-menu div:hover {
+    background-color:rgba(77, 72, 72, 0.726);
+    text-decoration: underline rgb(155, 79, 146);
+    border-radius: 10px;
+    text-decoration: underline rgb(46, 44, 44);
+    height: auto;
+    width: auto;
+    text-shadow: 2px 1px 1px black;
+    opacity: 2;
+    
+  }
+
+  /* Show menu on hover */
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+  #aboutus,#contact{
+    padding-left: 60px;;
+  }
+  #dropdown-menu1{
+    left:2s0px;
+
+  }
+
+  /* #login1_Regi{
+    position: absolute; */
+    /* margin-right: 100px;
+    padding-right: 60px; */
+  
+  /* #login_regi{
+    /* position: absolute; */
+    
+  
+
+  /* login and registration */
+  /* #regi_logi{
+    margin-left: 280px;
+  }
+
+  #login_Reg{
+    margin-left: 280px;
+  } */
+/* slide menu................ */
+  /* #side_menu{
+    background-image: url(slide.menuimg.png);
+    height: 28px;
+    width: 25px;
+    background-size: cover;
+    margin-left: 270px;
+  }
+  #side_m{
+    margin-left: 270px;
+
+  } */
