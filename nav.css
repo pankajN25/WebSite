@@ -215,9 +215,9 @@ nav a:hover {
     border-radius: 5px;
 }
 
-#loginButtonUnique:hover {
+/* #loginButtonUnique:hover { */
     /* background-color: #45a049; Darker green on hover */
-}
+/* } */
 
 .dropdown-content-unique {
     display: none; /* Hidden by default */
